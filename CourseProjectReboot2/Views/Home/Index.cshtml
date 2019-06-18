@@ -2,33 +2,50 @@
     ViewBag.Title = "Home Page";
 }
 
-<body>
+<head>
+
+</head>
+<body> 
     <div class="jumbotron">
         <style>
+            body {
+                background-color: #6699ff;
+            }
+
             img {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
             }
+            button {
+                background-color: #B0C4DE;
+                display: block;  
+
+            }
         </style>
 
-        <img src="~/Content/Image/FishHunterLogo.jpg" height="150" width="150" class="center" />
+        <img src="~/Content/Image/FishHunterLogo.jpg" height="150" width="150" class="center"/>
 
         <p style="text-align:center">
-            Keep a record of your fishing trips, recall what lures/baits worked in what conditions and organize pictures for bragging rights</pstyle="text-align:center">
+            <font size="3">
+                Keep a record of your fishing trips, recall what lures/baits worked in what
+                conditions and organize pictures for bragging rights
+            </font>
+        </p>
 
-            <style>
-                img
-                {
-                    width: 200px;
-                    height: 180px;
-                }
-            </style>
+        <style>
+            img {
+                width: 220px;
+                height: 180px;
+                align-self: center;
+            }
+        </style>
 
-                    <p style="text-align:center"><font size="6"> These are your favorite catches!</font></>
+        <p style="text-align:center">
+            <font size="5"> These are your favorite catches!</font></>
             <table align="center">
                 <tr>
-                    <td>
+                    <td align: center;>
                         <img src="~/Content/Image/SampleFish1.jpg" />
                     </td>
                     <td>
@@ -41,10 +58,14 @@
                         <img src="~/Content/Image/SampleFish4.jpg" />
                     </td>
                 </tr>
-            </table>
-
-            <a href="URL"> Your Text / button here"</a>
-</div>
+               
+                    <td><button class="btn btn-lg"> Add Catch</button></td>
+                    <td><button class="btn btn-lg">Edit Catch</button></td>
+                    <td><button class="btn btn-lg">Delete Catch</button></td>
+                    <td><button class="btn btn-lg">Settings</button></td>
+                </tr>
+        </table>
+    </div>
 </body>
 
 
