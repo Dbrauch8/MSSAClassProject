@@ -141,6 +141,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Image\Background1.jpg" />
+    <Content Include="Content\Image\Fisherman-gets-slapped-in-face-by-a-carp.gif" />
     <Content Include="Content\Image\SampleFish1.jpg" />
     <Content Include="Content\Image\SampleFish2.jpg" />
     <Content Include="Content\Image\SampleFish3.jpg" />
