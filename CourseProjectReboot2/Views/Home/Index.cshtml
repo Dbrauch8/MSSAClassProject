@@ -10,30 +10,46 @@
             margin-right: auto;
         }
     </style>
-    <img src="Image/FishHunterLogo.jpg" height="150" width="150" class="center">
-    <h1> Lets go Fishing!!</h1>
 
+    <img src="~/Content/Image/FishHunterLogo.jpg" height="150" width="150" class="center" />
+
+    <p>Keep a record of your fishing trips, recall what lures/baits worked in what conditions and organize pictures for bragging rights</p>
+
+    @*<style>
+        .fluid-ratio-resize {
+            max-width: 960px; /* actual img width */
+            *height: 150px; /* actual img height - IE7 */
+        }
+            .fluid-ratio-resize:after {
+                content: " ";
+                display: block;
+                width: 100%;
+                padding-top: 4.918%; /* slope */
+                height: 102.786px; /* start height */
+            }*@
+    @*</style>*@
+    <table width="500px" height="80%" border="1">
+        <tr>
+            <p style="text-align:center"><font size="6"> These are your favorite catches!</font></p>
+        </tr>
+        <tr>
+            <td>
+                <img src="~/Content/Image/SampleFish1.jpg" />
+            </td>
+            <td>
+                <img src="~/Content/Image/SampleFish2.jpg" />
+            </td>
+            <td>
+                <img src="~/Content/Image/SampleFish3.jpg" />
+            </td>
+            <td>
+                <img src="~/Content/Image/SampleFish4.jpg" />
+            </td>
+        </tr>
+    </table>
 
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+
 </div>
