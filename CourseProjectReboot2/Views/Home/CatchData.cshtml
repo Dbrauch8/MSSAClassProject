@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CourseProjectReboot2.Models.CatchData>
+
+@{
+    ViewBag.Title = "CatchData";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CatchData</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.weight)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bait)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BaitColor)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.weight)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Bait)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BaitColor)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.FishName }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FishName }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FishName })
+        </td>
+    </tr>
+}
+
+</table>

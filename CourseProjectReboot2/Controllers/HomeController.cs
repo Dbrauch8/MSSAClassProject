@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CourseProjectReboot2.Models;
 
 namespace CourseProjectReboot2.Controllers
 {
     public class HomeController : Controller
     {
+        CourseProjectEntities Db = new CourseProjectEntities();
+
         public ActionResult Index()
         {
             return View();
@@ -26,9 +29,10 @@ namespace CourseProjectReboot2.Controllers
 
             return View();
         }
-        public ActionResult AddCatch()//**********
+        public ActionResult CatchData()
         {
-            return View();
+            return View(Db.CatchDatas);
         }
+       
     }
 }
