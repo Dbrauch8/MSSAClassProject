@@ -1,0 +1,51 @@
+﻿@model CourseProjectReboot2.Models.CatchData
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CatchData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.weight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bait)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bait)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BaitColor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BaitColor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.FishName }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -134,6 +134,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CatchDatasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -234,6 +235,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Home\CatchData.cshtml" />
+    <Content Include="Views\CatchDatas\Create.cshtml" />
+    <Content Include="Views\CatchDatas\Delete.cshtml" />
+    <Content Include="Views\CatchDatas\Details.cshtml" />
+    <Content Include="Views\CatchDatas\Edit.cshtml" />
+    <Content Include="Views\CatchDatas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

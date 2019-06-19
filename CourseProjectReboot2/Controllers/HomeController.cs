@@ -29,10 +29,6 @@ namespace CourseProjectReboot2.Controllers
 
             return View();
         }
-        public ActionResult CatchData()
-        {
-            return View(Db.CatchDatas);
-        }
        
     }
 }
