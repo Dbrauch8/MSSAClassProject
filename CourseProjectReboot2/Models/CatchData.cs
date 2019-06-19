@@ -19,5 +19,6 @@ namespace CourseProjectReboot2.Models
         public Nullable<double> weight { get; set; }
         public string Bait { get; set; }
         public string BaitColor { get; set; }
+        public int CatchDataID { get; set; }
     }
 }

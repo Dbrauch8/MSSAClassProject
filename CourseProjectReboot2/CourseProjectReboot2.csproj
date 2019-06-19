@@ -141,32 +141,32 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CatchData.cs">
-      <DependentUpon>FishDbContext.tt</DependentUpon>
+      <DependentUpon>FishDbController.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\FishDbContext.Context.cs">
+    <Compile Include="Models\FishDbController.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FishDbContext.Context.tt</DependentUpon>
+      <DependentUpon>FishDbController.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\FishDbContext.cs">
+    <Compile Include="Models\FishDbController.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FishDbContext.tt</DependentUpon>
+      <DependentUpon>FishDbController.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\FishDbContext.Designer.cs">
+    <Compile Include="Models\FishDbController.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FishDbContext.edmx</DependentUpon>
+      <DependentUpon>FishDbController.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\LOCATION.cs">
-      <DependentUpon>FishDbContext.tt</DependentUpon>
+      <DependentUpon>FishDbController.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\sysdiagram.cs">
-      <DependentUpon>FishDbContext.tt</DependentUpon>
+      <DependentUpon>FishDbController.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\WATERFEATURE.cs">
-      <DependentUpon>FishDbContext.tt</DependentUpon>
+      <DependentUpon>FishDbController.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -186,24 +186,24 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\FishDbContext.Context.tt">
+    <Content Include="Models\FishDbController.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FishDbContext.Context.cs</LastGenOutput>
-      <DependentUpon>FishDbContext.edmx</DependentUpon>
+      <DependentUpon>FishDbController.edmx</DependentUpon>
+      <LastGenOutput>FishDbController.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\FishDbContext.tt">
+    <Content Include="Models\FishDbController.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FishDbContext.edmx</DependentUpon>
-      <LastGenOutput>FishDbContext.cs</LastGenOutput>
+      <DependentUpon>FishDbController.edmx</DependentUpon>
+      <LastGenOutput>FishDbController.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\FishDbContext.edmx">
+    <EntityDeploy Include="Models\FishDbController.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>FishDbContext.Designer.cs</LastGenOutput>
+      <LastGenOutput>FishDbController.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\FishDbContext.edmx.diagram">
-      <DependentUpon>FishDbContext.edmx</DependentUpon>
+    <Content Include="Models\FishDbController.edmx.diagram">
+      <DependentUpon>FishDbController.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

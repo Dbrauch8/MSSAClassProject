@@ -21,7 +21,7 @@ namespace CourseProjectReboot2.Controllers
         }
 
         // GET: CatchDatas/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int id)
         {
             if (id == null)
             {
@@ -59,7 +59,7 @@ namespace CourseProjectReboot2.Controllers
         }
 
         // GET: CatchDatas/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult Edit(int id)
         {
             if (id == null)
             {
@@ -107,7 +107,7 @@ namespace CourseProjectReboot2.Controllers
         // POST: CatchDatas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(int id)
         {
             CatchData catchData = db.CatchDatas.Find(id);
             db.CatchDatas.Remove(catchData);
