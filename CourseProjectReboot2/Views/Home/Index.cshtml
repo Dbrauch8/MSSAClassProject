@@ -21,6 +21,11 @@
             button {
                 background-color: #B0C4DE;
             }
+
+            a.btn {
+                color: #000000;
+                background-color: #B0C4DE;
+            }
         </style>
    
         <img src="~/Content/Image/Fisherman-gets-slapped-in-face-by-a-carp.gif" />
@@ -58,8 +63,8 @@
                     </td>
                 </tr>
                 <tr align="center">
-                    <td><button class="btn btn-lg"> Add Catch</button></td>
-                    <td><button class="btn btn-lg">Edit Catch</button></td>
+                    <td><a href=@Url.Action("About", "Home") class="btn btn-lg" role="button"> Add Catch</a></td>
+                    <td>@Html.ActionLink("Edit Catch", "About", "Home", null, new { @class = "btn btn-lg" })</td>
                     <td><button class="btn btn-lg">Delete Catch</button></td>
                     <td><button class="btn btn-lg">Settings</button></td>
                 </tr>
