@@ -182,6 +182,7 @@
     <Content Include="Content\Image\SampleFish2.jpg" />
     <Content Include="Content\Image\SampleFish3.jpg" />
     <Content Include="Content\Image\SampleFish4.jpg" />
+    <Content Include="Content\Image\tenor.gif" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
